@@ -1,0 +1,14 @@
+package testEvalChambre;
+import java.util.Scanner;
+public class App {
+
+	public static void main(String[] args) {
+	Scanner sc = new Scanner (System.in);
+		int tableau[] = new int [7];
+		tableau = sc.nextInt;
+		System.out.println("le nombre de case du tableau est :"+ tableau);
+		
+		
+	}
+	}
+	

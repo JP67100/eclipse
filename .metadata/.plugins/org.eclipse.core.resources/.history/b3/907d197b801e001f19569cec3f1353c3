@@ -1,0 +1,14 @@
+package tableau41;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		int[] tab  = {0,0,0,0,0,0,0};
+		   // Déclaration du tableau d'entiers
+      
+            System.out.println(tab[0]);
+        
+
+	}}
+

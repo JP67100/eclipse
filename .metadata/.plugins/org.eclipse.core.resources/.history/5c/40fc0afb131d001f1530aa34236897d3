@@ -1,0 +1,41 @@
+package sommeDesValeursDe2tableaux45;
+
+public class App {
+
+	public static void main(String[] args) {
+
+			int[] tableau = new int [8];
+			int [] tableau2 = new int [8];
+			int somme = 0;
+			int nombre = 0 ;
+			
+			tableau [0] = 4;  
+			tableau [1] = 8;
+			tableau [2]	= 7;			
+			tableau [3] = 9;
+			tableau [4] = 1;
+			tableau [5] = 5;
+			tableau [6] = 4;
+			tableau [7] = 6;
+			
+			tableau2[0] = 7;
+			tableau2[1] = 6;
+			tableau2[2] = 5;
+			tableau2[3] = 2;
+			tableau2[4] = 1;
+			tableau2[5] = 3;									
+			tableau2[6] = 7;
+			tableau2[7] = 4;
+			
+			for (int resultat = 0; resultat<tableau.length ; resultat++); {
+			somme += nombre;
+			System.out.println("resultat :");
+			}
+	
+	
+	
+	
+	
+	}
+
+}

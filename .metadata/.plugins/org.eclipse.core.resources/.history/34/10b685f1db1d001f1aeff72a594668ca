@@ -1,0 +1,14 @@
+package testEvalChambre;
+
+public class App {
+
+	public static void main(String[] args) {
+	
+		int tableau[] = new int [7];
+		
+		System.out.println("le nombre de cas du tableau est :"+ tableau[5]);
+		
+		
+	}
+	}
+	
