@@ -9,9 +9,19 @@ public class CANAPE {
 	  private int longueur; // En centimètres
 	  private int largeur; // En centimètres
 	  private int hauteur; // En centimètres
+	 
+	  public CANAPE() {
+	  type  = "3 places";
+	  revêtement = "tissus";
+	  couleur = "Gris";
+	  longueur = 200;
+	  largeur = 80;
+	  hauteur = 100;
+	  }
+	  
 
 	  // Constructeur pour initialiser un canapé
-	  public Canapé(String type, String revêtement, String couleur, 
+	  public CANAPE(String type, String revêtement, String couleur, 
 	                int longueur, int largeur, int hauteur) {
 	    this.type = type;
 	    this.revêtement = revêtement;
@@ -20,14 +30,16 @@ public class CANAPE {
 	    this.largeur = largeur;
 	    this.hauteur = hauteur;
 	  }
-
+	
 	  // Getters pour accéder aux attributs du canapé
 	  public String getType() {
-	    return type;
+	    type = this.revêtement;
+		  return type;
 	  }
 
-	  public String getRevêtement() {
-	    return revêtement;
+	  public String getRevêtement(String revêtement) {
+		  this.revêtement = revêtement;
+		  return revêtement;
 	  }
 
 	  public String getCouleur() {
@@ -39,6 +51,7 @@ public class CANAPE {
 	  }
 
 	  public int getLargeur() {
+		  
 	    return largeur;
 	  }
 
